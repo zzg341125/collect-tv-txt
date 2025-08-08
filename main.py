@@ -778,7 +778,7 @@ def custom_tyss_sort(lines):
 
 normalized_tyss_lines = custom_tyss_sort(set(normalized_tyss_lines))
 
-keywords_to_exclude_tiyu = ["玉玉软件", "榴芒电视","公众号","咪视通"]
+keywords_to_exclude_tiyu = ["玉玉软件", "榴芒电视","公众号","咪视通","麻豆"]
 filtered_tyss_lines = filter_lines(normalized_tyss_lines, keywords_to_exclude_tiyu)
 generate_playlist_html(filtered_tyss_lines, 'tiyu.html')
 
