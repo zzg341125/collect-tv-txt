@@ -947,8 +947,8 @@ output_file_simple = "merged_output_simple.txt"
 others_file = "others_output.txt"
 
 # NEW将合并后的文本写入文件
-new_output_file = "bbxx.txt"
-new_output_file_simple = "bbxx_lite.txt"
+new_output_file = "bbxx365.txt"
+new_output_file_simple = "bbxx365_lite.txt"
 
 # # custom定制
 # output_file_custom_zhang = "custom/zhang.txt"
