@@ -1,3 +1,5 @@
+寰宇新闻,http://4gtv.cnlive.club/channel/n4da4274/index.m3u8?q=1782639885837
+寰宇新闻台湾,http://4gtv.cnlive.club/channel/n37458587/index.m3u8?q=1782639885837
 TVBS新闻,http://45.192.97.170:8880/play/1165.m3u8
 千禧经典,http://45.192.97.170:8880/play/1155.m3u8
 非凡新闻,http://45.192.97.170:8880/play/1166.m3u8
@@ -86,8 +88,42 @@ HISTORY,http://37.27.111.214:8080/live/27/hls.m3u8
 Taiwan Good TV General,http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-3.m3u8
 Taiwan Good TV Truth,http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8
 CNA,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd$LR•IPV4『线路8』
-
-
+镜新闻,http://4gtv.cnlive.club/channel/351c8485/index.m3u8?q=1782639885837
+中视,http://4gtv.cnlive.club/channel/n722644d8/index.m3u8?q=1782639885837
+TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837
+TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837
+华视,http://4gtv.cnlive.club/channel/n721fc25a/index.m3u8?q=1782639885837
+中天新闻,http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1782639885837
+中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
+TVBS新闻,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1782639885837
+TVBS欢乐,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837
+东森新闻,http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1782639885837
+东森财经新闻,http://4gtv.cnlive.club/channel/57ce2e74/index.m3u8?q=1782639885837
+华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
+民视台湾,http://4gtv.cnlive.club/channel/nce5d867/index.m3u8?q=1782639885837
+民视新闻,http://4gtv.cnlive.club/channel/nca14742/index.m3u8?q=1782639885837
+民视第一,http://4gtv.cnlive.club/channel/nc56ba28/index.m3u8?q=1782639885837
+民视综艺,http://4gtv.cnlive.club/channel/nc46cff5/index.m3u8?q=1782639885837
+原住民族电视,http://4gtv.cnlive.club/channel/4f20dc68/index.m3u8?q=1782639885837
+客家电视,http://4gtv.cnlive.club/channel/n855e5fe/index.m3u8?q=1782639885837
+猪哥亮歌厅秀,http://4gtv.cnlive.club/channel/n4271efdd/index.m3u8?q=1782639885837
+金光布袋戏,http://4gtv.cnlive.club/channel/n125d8ecd/index.m3u8?q=1782639885837
+靖天卡通,http://4gtv.cnlive.club/channel/3ed78a45/index.m3u8?q=1782639885837
+靖天戏剧,http://4gtv.cnlive.club/channel/3f07b409/index.m3u8?q=1782639885837
+靖天日本,http://4gtv.cnlive.club/channel/3f1816f7/index.m3u8?q=1782639885837
+靖天映画,http://4gtv.cnlive.club/channel/n610faa83/index.m3u8?q=1782639885837
+靖天综合,http://4gtv.cnlive.club/channel/3f6ecb92/index.m3u8?q=1782639885837
+靖天育乐,http://4gtv.cnlive.club/channel/3f7d0a6e/index.m3u8?q=1782639885837
+靖天资讯,http://4gtv.cnlive.club/channel/3fae463b/index.m3u8?q=1782639885837
+靖洋卡通Nice Bingo,http://4gtv.cnlive.club/channel/n15c65427/index.m3u8?q=1782639885837
+靖洋戏剧,http://4gtv.cnlive.club/channel/48117ce7/index.m3u8?q=1782639885837
+精选动漫,http://4gtv.cnlive.club/channel/n1ecb3c7f/index.m3u8?q=1782639885837
+经典卡通,http://4gtv.cnlive.club/channel/n2faf04ad/index.m3u8?q=1782639885837
+amc电影,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1782639885837
+KLT-靖天国际,http://4gtv.cnlive.club/channel/n481b36ac/index.m3u8?q=1782639885837
+LiveABC互动英语频道,http://4gtv.cnlive.club/channel/2a571abf/index.m3u8?q=1782639885837
+MOMO亲子,http://4gtv.cnlive.club/channel/n33a56e39/index.m3u8?q=1782639885837
+Nice TV 靖天欢乐,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1782639885837
 TVBS新闻,http://61.221.215.25:8800/hls/9/index.m3u8
 TVBS新闻,http://45.192.97.170:8880/play/1314.m3u8
 TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8

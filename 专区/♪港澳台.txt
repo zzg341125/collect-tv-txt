@@ -1,12 +1,5 @@
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 無綫新聞台,https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
-TVB新闻,http://rihou.cc:555/tv/[Pd]无线新闻
-TVB翡翠4K,http://rihou.cc:555/tv/[Pd]无线翡4k
-TVB Plus,http://rihou.cc:555/tv/[Pd]Plus综合
-TVB功夫,http://rihou.cc:555/tv/[Pd]无线功夫
-TVB华丽,http://rihou.cc:555/tv/[Pd]无线华丽
-TVB娱乐,http://rihou.cc:555/tv/[Pd]无线娱乐
-HOY77,http://rihou.cc:555/tv/[Pd]有线综合
 翡翠台,http://r.jdshipin.com/n90gt
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 翡翠台4K,https://o11.163189.xyz/stream/tvb/fct4k/
@@ -54,3 +47,10 @@ CHU,https://cdn6.123.rr.kg/163189/chu
 澳門體育,https://cdn6.123.rr.kg/163189/amty
 澳門綜藝,https://cdn6.123.rr.kg/163189/amzy
 澳門蓮花,https://cdn6.123.rr.kg/163189/amlh
+TVB新闻,http://rihou.cc:555/tv/[Pd]无线新闻
+TVB翡翠4K,http://rihou.cc:555/tv/[Pd]无线翡4k
+TVB Plus,http://rihou.cc:555/tv/[Pd]Plus综合
+TVB功夫,http://rihou.cc:555/tv/[Pd]无线功夫
+TVB华丽,http://rihou.cc:555/tv/[Pd]无线华丽
+TVB娱乐,http://rihou.cc:555/tv/[Pd]无线娱乐
+HOY77,http://rihou.cc:555/tv/[Pd]有线综合
