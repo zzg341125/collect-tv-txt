@@ -621,7 +621,6 @@
 云南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
 云南卫视,http://192.151.150.154/live/ynwshd.m3u8
 云南卫视,http://198.204.228.26/live/ynwshd.m3u8
-云南卫视,video://http://wcetv.com/videos/view/liv/10
 云南卫视,http://bztv.tvbus.cc:8081/cdnlive/ynws.m3u8
 云南卫视,http://124.90.45.52:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 云南卫视,http://204.12.221.218:8181/3m1080p/ynws.m3u8
@@ -768,7 +767,6 @@
 厦门卫视,http://198.204.228.26/live/xmws.m3u8
 厦门卫视,http://192.151.150.154/live/xmws.m3u8
 厦门卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xmws
-厦门卫视,video://https://m.italkbbtv.com/live/6a17e7b3820a5849076b0009
 厦门卫视,http://38.75.136.137:98/gslb/dsdqpub/xmws.m3u8?auth=testpub
 厦门卫视,http://183.11.239.36:808/hls/17/index.m3u8
 厦门卫视,http://113.57.140.161:10081/newlive/live/hls/28/live.m3u8
@@ -886,8 +884,6 @@
 大湾区卫视,http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub
 大湾区卫视,http://198.204.228.26/live/nfws.m3u8
 大湾区卫视,https://ed6e-f4b7-af48-6d55.kylintv.tv/live/tvs_iphone.m3u8
-大湾区卫视,video://http://wcetv.com/videos/view/liv/6
-大湾区卫视,video://https://m.italkbbtv.com/live/6a30f744260d0d240f66a375
 大湾区卫视,http://222.134.19.49:8090/608917627
 大湾区卫视,https://live.chinacert.cftest5.cn/cnmg/live/608917627
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
@@ -1015,7 +1011,6 @@
 广东卫视,http://198.204.228.26/live/gdwshd.m3u8
 广东卫视,http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
 广东卫视,https://h5cdn3.kylintv.tv/live/gdtvhd_iphone.m3u8
-广东卫视,video://http://wcetv.com/videos/view/liv/11
 广东卫视,http://bztv.tvbus.cc:8081/cdnlive/gdws.m3u8
 广东卫视,http://116.77.33.98:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
 广东卫视,http://124.90.45.52:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0

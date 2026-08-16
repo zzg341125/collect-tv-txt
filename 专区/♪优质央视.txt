@@ -340,8 +340,6 @@ CCTV4,http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
 CCTV4,http://207.56.13.146:81/cdnlive/cctv4.m3u8
 CCTV4,http://198.204.228.26/live/cctv4hd.m3u8
 CCTV4,https://0a73-927f-c5b9-8335.kylintv.tv/live/cctv4hd_iphone.m3u8
-CCTV4,video://http://wcetv.com/videos/view/liv/0
-CCTV4,video://https://m.italkbbtv.com/live/6a017e09bdf9f93f62467172
 CCTV4,http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=156404
 CCTV4,http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=90226
 CCTV4,http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=1423389
@@ -1680,7 +1678,6 @@ CCTV8K,http://198.204.240.250:82/live/cctv8k.m3u8
 CCTV老故事,http://204.12.221.218:8181/3m1080p/lgs.m3u8
 CCTV老故事,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lgs
 CCTV老故事,http://38.75.136.137:98/gslb/dsdqpub/lgs.m3u8?auth=testpub
-CCTV- 娱乐,video://https://m.italkbbtv.com/live/6a018984edb269311e00a185
 CCTV-OPERA ,http://ysift55.xyz/52TLK6U/TNLMRY9/269824
 CCTV-ENTERTAINMENT ,http://ysift55.xyz/52TLK6U/TNLMRY9/269825
 CCTV-卫生健康,http://bztv.tvbus.cc:8081/cdnlive/wsjk.m3u8
