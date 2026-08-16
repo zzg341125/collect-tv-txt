@@ -32,5 +32,5 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=kimwang1978/collect-tv-txt&type=Date)](https://star-history.com/#kimwang1978/collect-tv-txt&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=kimwang1978/collect-txt&type=Date)](https://star-history.com/#kimwang1978/collect-tv-txt&Date)
 
