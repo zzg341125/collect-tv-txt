@@ -26,7 +26,6 @@
 凤凰香港,http://aktv-stream.m16tv.cfd/stream/aktv/null-5/AKTV.m3u8
 凤凰香港,http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk TVB
 凤凰香港,http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
-凤凰香港,https://t.freetv.fun/live/feng-huang-xiang-gang.php
 凤凰香港,http://43.129.81.169/qctv.fengshows.cn/live/0701phk72.flv
 凤凰香港,https://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
 凤凰香港,http://aktv_stream1.m16tv.cfd/stream/aktv/null-5/AKTV.m3u8
@@ -63,10 +62,10 @@
 凤凰中文,http://218.206.193.218:8888/hls/66/index.m3u8
 凤凰中文,http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 凤凰中文,http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv
-凤凰中文,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰中文,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8
 凤凰中文,http://183.237.95.108:9901/tsfile/live/1103_1.m3u8?key=txiptv&playlive=0&authid=0
-凤凰中文,http://219.145.93.74:10000/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰中文,https://cdn6.163189.xyz/163189/fhzw
+凤凰中文,http://219.145.93.74:10000/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰中文,https://php.jdshipin.com:2096/smt.php?id=phoenixtv_hd
 凤凰中文,http://feilong123.vip/409990236/hktv.php?id=3
 凤凰中文,http://iptv.4666888.xyz/iptv2A.php?id=27
@@ -222,7 +221,7 @@
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-25.ctv
 凤凰卫视,http://218.206.193.218:8888/hls/67/index.m3u8
 凤凰卫视,http://api.kkitv.itv888.vip:8080/streams/vny1wblsnch/index.m3u8
-凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8
+凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰卫视,http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
 凤凰卫视,http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd
 翡翠台,http://r.jdshipin.com/qClQf
@@ -619,7 +618,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 八大精彩,https://test.946985.filegear-sg.me/proxy/9061feac2ccad080
 八大精彩,http://api.mytv666.top/api/qwt.php?t=台湾频道&id=八大精彩台
 八大精彩,https://hls-gateway.vpstv.net/streams/477035.m3u8
-八大精彩,https://t.freetv.fun/live/ba-da-jing-cai.m3u8
 八大精彩,https://stream1.freetv.fun/ba-da-jing-cai-1.ctv
 八大综艺,http://220.135.64.124:5050/of-4gtv-4gtv039/index.m3u8?proxy=true
 八大综艺,http://4gtv.cnlive.club/channel/662e9334/index.m3u8?q=1782639885837
@@ -751,7 +749,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 中天新闻,https://v.hystudio.cn:8088/live/yifatv-ztxw0.m3u8
 中天新闻,http://aktv-stream.m16tv.cfd/stream/aktv/null-6/AKTV.m3u8
 中天新闻,http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
-中天新闻,https://t.freetv.fun/live/zhong-tian-xin-wen-1-2.m3u8
 中天新闻,https://t.freetv.fun/live/zhong-tian-xin-wen-1.m3u8
 中天新闻,https://t.freetv.fun/live/zhong-tian-xin-wen-10.m3u8
 中天新闻,https://t.freetv.fun/live/zhong-tian-xin-wen-2.m3u8
@@ -809,7 +806,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 中视新闻,http://198.16.100.186:8278/zhongshinews_twn/playlist.m3u8?tid=MD0D3377711133777111&ct=19249&tsum=ffaee3fe7040c96643b3c7f12bf2de8d
 中视新闻,http://aktv-stream.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
 中视新闻,https://t.freetv.fun/live/zhong-shi-xin-wen-1.m3u8
-中视新闻,https://t.freetv.fun/live/zhong-shi-xin-wen-2.m3u8
 中视新闻,https://t.freetv.fun/live/zhong-shi-xin-wen.ts
 中视新闻,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
 中视新闻,https://tv.iill.top/litv/4gtv-4gtv074
@@ -854,7 +850,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 民视,http://api.mytv666.top/api/qwt.php?t=台湾频道&id=民视
 民视,https://stream1.freetv.fun/min-shi-6.ctv
 民视,http://37.27.111.214:8080/live/6/hls.m3u8
-民视,https://t.freetv.fun/live/min-shi-1-1.m3u8
 民视,https://t.freetv.fun/live/min-shi-1.ts
 民视,https://t.freetv.fun/live/min-shi-3.ts
 民视,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-2/AKTV.m3u8
@@ -892,7 +887,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 民视新闻,https://t.freetv.fun/live/min-shi-xin-wen-1-1.m3u8
 民视新闻,https://t.freetv.fun/live/min-shi-xin-wen-2.m3u8
-民视新闻,https://t.freetv.fun/live/min-shi-xin-wen-3.m3u8
 民视新闻,https://t.freetv.fun/live/min-shi-xin-wen.ts
 民视新闻,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-12/AKTV.m3u8
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
@@ -1053,7 +1047,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 东森新闻,http://aktv-stream.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
 东森新闻,http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
 东森新闻,https://t.freetv.fun/live/dong-sen-xin-wen-1.ts
-东森新闻,https://t.freetv.fun/live/dong-sen-xin-wen-2.m3u8
 东森新闻,https://t.freetv.fun/live/dong-sen-xin-wen.m3u8
 东森新闻,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-10/AKTV.m3u8
 东森新闻,http://aktv_stream1.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
@@ -1115,7 +1108,6 @@ TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB72208834
 华视新闻,http://bak.dou.ddns-ip.net/api.php?n=xxxtw&id=3pLPQH&tk=SLK5QjnsRiya
 华视新闻,https://stream1.freetv.fun/hua-shi-2.m3u8
 华视新闻,http://37.27.111.214:8080/live/8/hls.m3u8
-华视新闻,https://t.freetv.fun/live/hua-shi-xin-wen-1.m3u8
 华视新闻,https://t.freetv.fun/live/hua-shi-xin-wen.m3u8
 华视新闻,http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
 华视新闻,https://tv.iill.top/litv/4gtv-4gtv052
