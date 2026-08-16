@@ -159,7 +159,6 @@ CCTV1,http://drive.mxmy.net:8888/udp/239.3.1.129:8008
 CCTV1,https://stream1.freetv.fun/e87ac64457c976111fc8524f11c25da508b807c29647c571b45ab13a609917c2.m3u8
 CCTV1,https://stream1.freetv.fun/3cd84be1fb3623f1c3ba7d3d26e3d607331255d6559bd3e6ded774a1ff7c2b89.m3u8
 CCTV1,https://stream1.freetv.fun/f1fa8406434117dfaa5c0b174fa90a31da74b1ad921fc3ce3662a40cff4d9001.m3u8
-CCTV1,https://stream1.freetv.fun/rthk33-1.m3u8
 CCTV1,https://stream1.freetv.fun/354e2e055127bbf43693aa848d84f93f5bcc517472a8858f188f313dbf157f51.m3u8
 CCTV1,https://stream1.freetv.fun/df7cf71b3e02015b9029ac087b3eec56fde92fd81d162962570629faec293037.m3u8
 CCTV1,http://112.46.85.60:8009/hls/501/index.m3u8
@@ -550,7 +549,6 @@ CCTV5,http://112.30.73.119:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&au
 CCTV5,http://gmxw.7766.org:808/hls/93/index.m3u8
 CCTV5,http://124.116.183.146:9901/tsfile/live/0005_1.m3u8
 CCTV5,http://drive.mxmy.net:8888/udp/239.3.1.173:8001
-CCTV5,https://stream1.freetv.fun/ipv6-cctv-5-12.m3u8
 CCTV5,https://piccpndali.v.myalicdn.com/audio/cctv5_2.m3u8
 CCTV5,http://183.11.239.36:808/hls/93/index.m3u8
 CCTV5+,http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
@@ -1305,7 +1303,6 @@ CCTV13,http://123.118.53.84:45237/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&
 CCTV13,http://112.123.243.37:50085/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV13,http://222.169.85.8:9901/tsfile/live/0013_1.m3u8
 CCTV13,http://219.147.245.238:25480/newlive/live/hls/14/live.m3u8
-CCTV13,https://t.freetv.fun/live/cctv13-21.m3u8
 CCTV13,http://drive.mxmy.net:8888/udp/239.3.1.124:8128
 CCTV13,http://123.130.84.106:8154/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13,https://piccpndali.v.myalicdn.com/audio/cctv13_2.m3u8
@@ -1387,7 +1384,6 @@ CCTV14,http://183.11.239.36:808/hls/32/index.m3u8
 CCTV14,http://124.116.183.146:9901/tsfile/live/0014_1.m3u8
 CCTV14,http://222.169.85.8:9901/tsfile/live/0014_1.m3u8?key=txiptv
 CCTV14,http://drive.mxmy.net:8888/udp/239.3.1.65:8132
-CCTV14,https://stream1.freetv.fun/cctv-14-shao-er-2.m3u8
 CCTV14,https://piccpndali.v.myalicdn.com/audio/cctv14_2.m3u8
 CCTV15,http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
 CCTV15,http://192.151.150.154/live/cctv15hd.m3u8
@@ -1677,7 +1673,6 @@ CCTV电视指南,http://107.150.60.122/live/dszn.m3u8
 CCTV4K,http://107.150.60.122/live/cctv4k.m3u8
 CCTV4K,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1786878000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-a3df437ca003cc2ea1095d6d59703814&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 CCTV4K,http://104.152.209.49:8181/720p/cctv4k.m3u8
-CCTV4K,https://stream1.freetv.fun/cctv4k-2.ctv
 CCTV8K,http://107.150.52.50:82/live/cctv8k.m3u8
 CCTV8K,http://107.150.60.122/live/cctv8k.m3u8
 CCTV8K,http://104.152.209.49:8181/720p/cctv8k.m3u8
