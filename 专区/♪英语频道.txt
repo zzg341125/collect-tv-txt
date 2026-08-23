@@ -37,5 +37,5 @@ VOA美国之音,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlis
 新加坡国际,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 CNA,http://primestreams.tv:826/live/TammyMccready/eGj6lFxVyG/119453.ts
 CNA,http://primep2.tv:826/live/SourPatchKid/nlnE4DVQUs/112852.ts
-CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 CNA,http://ysift55.xyz/live/52TLK6U/TNLMRY9/1052455.ts
+东森美洲卫视,http://38.64.72.148/hls/modn/list/2015/playlist.m3u8
