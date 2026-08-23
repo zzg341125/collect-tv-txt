@@ -2,6 +2,7 @@ import urllib.request
 from urllib.parse import urlparse
 import re #正则
 import os
+import json
 from datetime import datetime, timedelta, timezone
 import random
 import opencc #简繁转换
@@ -60,6 +61,104 @@ blacklist_auto=read_blacklist_from_txt('assets/blacklist1/blacklist_auto.txt')
 blacklist_manual=read_blacklist_from_txt('assets/blacklist1/blacklist_manual.txt') 
 # combined_blacklist = list(set(blacklist_auto + blacklist_manual))
 combined_blacklist = set(blacklist_auto + blacklist_manual)  #list是个列表，set是个集合，据说检索速度集合要快很多。2024-08-08
+
+# 近期检测失败的地址只在复检期限内临时拦截，不能与永久黑名单混为一谈。
+FAILURE_CACHE_PATH = 'data/stream-check/failure-cache.json'
+FAILURE_CACHE_CONFIG_PATH = 'data/stream-check/config.json'
+HOST_REPUTATION_PATH = 'data/stream-check/host-reputation.json'
+
+def load_active_failure_blacklist():
+    """读取尚未到复检时间的失效缓存地址。"""
+    try:
+        with open(FAILURE_CACHE_CONFIG_PATH, 'r', encoding='utf-8') as file:
+            config = json.load(file)
+        with open(FAILURE_CACHE_PATH, 'r', encoding='utf-8') as file:
+            cache = json.load(file)
+    except FileNotFoundError:
+        print('失效库不存在，本次不使用失效缓存过滤。')
+        return set()
+    except (OSError, json.JSONDecodeError) as error:
+        print(f'读取失效库失败，本次不使用失效缓存过滤：{error}')
+        return set()
+
+    retry_hours = config.get('retryHours', {})
+    long_failure = config.get('longFailure', {})
+    records = cache.get('records', {})
+    active_urls = set()
+    current_time = datetime.now(timezone.utc)
+
+    for url, record in records.items():
+        try:
+            checked_at = datetime.fromisoformat(record['lastChecked'].replace('Z', '+00:00'))
+            if checked_at.tzinfo is None:
+                checked_at = checked_at.replace(tzinfo=timezone.utc)
+            reason = record.get('reason', 'other')
+            retry_after_hours = retry_hours.get(reason, retry_hours.get('other', 24))
+            first_failed_at = record.get('firstFailedAt')
+            if first_failed_at and record.get('failCount', 0) >= long_failure.get('minFailCount', 5):
+                first_failure = datetime.fromisoformat(first_failed_at.replace('Z', '+00:00'))
+                if first_failure.tzinfo is None:
+                    first_failure = first_failure.replace(tzinfo=timezone.utc)
+                failure_age = current_time - first_failure
+                if failure_age >= timedelta(days=long_failure.get('minFailureDays', 7)):
+                    retry_after_hours = max(retry_after_hours, long_failure.get('retryHours', 720))
+            if current_time < checked_at + timedelta(hours=retry_after_hours):
+                active_urls.add(url)
+        except (AttributeError, KeyError, TypeError, ValueError):
+            # 单条缓存记录损坏或字段不足时，宁可重新检测，也不误过滤。
+            continue
+
+    print(f'失效库临时过滤地址数: {len(active_urls)}')
+    return active_urls
+
+active_failure_blacklist = load_active_failure_blacklist()
+
+def get_stream_host_key(url):
+    """返回域名或 IP:端口；无主机信息时返回空字符串。"""
+    normalized_url = url.strip()
+    if normalized_url.startswith('video://'):
+        normalized_url = normalized_url[len('video://'):]
+    try:
+        return urlparse(normalized_url).netloc.lower()
+    except (TypeError, ValueError):
+        return ''
+
+def load_active_host_blacklist():
+    """读取信誉库中仍处于临时跳过期限的主机。"""
+    try:
+        with open(HOST_REPUTATION_PATH, 'r', encoding='utf-8') as file:
+            reputation = json.load(file)
+    except FileNotFoundError:
+        print('主机信誉库不存在，本次不使用主机临时过滤。')
+        return set()
+    except (OSError, json.JSONDecodeError) as error:
+        print(f'读取主机信誉库失败，本次不使用主机临时过滤：{error}')
+        return set()
+
+    current_time = datetime.now(timezone.utc)
+    active_hosts = set()
+    candidate_count = 0
+
+    for host, record in reputation.get('records', {}).items():
+        try:
+            if record.get('permanentCandidate'):
+                candidate_count += 1
+            skip_until = record.get('skipUntil')
+            if not skip_until:
+                continue
+            expires_at = datetime.fromisoformat(skip_until.replace('Z', '+00:00'))
+            if expires_at.tzinfo is None:
+                expires_at = expires_at.replace(tzinfo=timezone.utc)
+            if current_time < expires_at:
+                active_hosts.add(host)
+        except (AttributeError, TypeError, ValueError):
+            # 单条信誉记录异常时不拦截，以避免误伤。
+            continue
+
+    print(f'主机信誉库临时过滤数: {len(active_hosts)}，人工复核候选数: {candidate_count}')
+    return active_hosts
+
+active_host_blacklist = load_active_host_blacklist()
 
 # 定义多个对象用于存储不同内容的行文本
 sh_lines = []
@@ -226,6 +325,13 @@ def clean_url(url):
         return url[:last_dollar_index]
     return url
 
+def normalize_failure_cache_url(url):
+    """生成与失效库一致的查询地址，不改变原有分发地址。"""
+    normalized_url = clean_url(url.strip())
+    if normalized_url.startswith('video://'):
+        normalized_url = normalized_url[len('video://'):]
+    return normalized_url
+
 # 添加channel_name前剔除部分特定字符
 removal_list = ["_电信", "电信", "高清", "频道", "（HD）", "-HD","英陆","_ITV","(北美)","(HK)","AKtv","「IPV4」","「IPV6」",
                 "频陆","备陆","壹陆","贰陆","叁陆","肆陆","伍陆","陆陆","柒陆", "频晴","频粤","[超清]","高清","超清","标清","斯特",
@@ -254,7 +360,9 @@ def process_channel_line(line):
         channel_address=clean_url(line.split(',')[1].strip())  #把URL中$之后的内容都去掉
         line=channel_name+","+channel_address #重新组织line
 
-        if channel_address not in combined_blacklist: # 判断当前源是否在blacklist中
+        cache_lookup_address = normalize_failure_cache_url(channel_address)
+        host_key = get_stream_host_key(cache_lookup_address)
+        if channel_address not in combined_blacklist and cache_lookup_address not in active_failure_blacklist and host_key not in active_host_blacklist: # 判断当前源是否在永久黑名单、失效库或主机临时过滤中
             # 根据行内容判断存入哪个对象，开始分发
             if "CCTV" in channel_name and check_url_existence(ys_lines, channel_address) : #央视频道
                 ys_lines.append(process_name_string(line.strip()))
