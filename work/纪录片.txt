@@ -1,10 +1,13 @@
 人与自然,http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8
-世界地理,https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710
 世界地理,http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+世界地理,https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710
 世界地理,http://dassby.qqff.top:99/live/世界地理/index.m3u8
-动物星球,https://stream1.freetv.fun/dong-wu-xing-qiu-1.m3u8
+美食星球,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34796
+动物星球,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34889
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 动物星球,https://t.freetv.fun/live/dong-wu-xing-qiu-1.m3u8
+动物星球,https://stream1.freetv.fun/dong-wu-xing-qiu-1.m3u8
+国家地理,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34877
 国家地理,http://220.135.64.124:5050/4gtv-live208/index.m3u8?proxy=true
 Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8
 Discovery,http://ott.watch/stream/E9LDH2ZCN7/177.m3u8

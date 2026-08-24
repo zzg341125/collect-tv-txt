@@ -3,3 +3,4 @@
 刘德华,http://173.208.234.146/live/vlldh.m3u8
 成龙,http://173.208.234.146/live/vlcl.m3u8
 林正英,http://173.208.234.146/live/vllzy.m3u8
+电影_梁家辉,http://live.metshop.top/huya/11342429?cdn=alicdn
