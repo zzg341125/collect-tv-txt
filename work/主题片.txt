@@ -20,9 +20,12 @@
 电影_犯罪片,http://124.248.69.76:26781/huya/11352974
 电影_丧尸片,https://live.iill.top/huya/21059578
 电影_丧尸片,http://124.248.69.76:26781/huya/21059578
+电影_动作电影,http://live.nctv.top/huya.php?id=11602077
 电影_战争片,https://live.iill.top/huya/21059574
 电影_战争片,http://124.248.69.76:26781/huya/21059574
+电影_搞笑喜剧,http://live.metshop.top/huya/11342423?cdn=alicdn
 电影_谍战,https://live.iill.top/huya/21059585
 电影_谍战,http://124.248.69.76:26781/huya/21059585
+电影_贺岁,https://lbds.us.ci/11601971
 电影_贺岁,https://live.iill.top/huya/11601971
 电影_贺岁,http://124.248.69.76:26781/huya/11601971
