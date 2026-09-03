@@ -140,6 +140,28 @@ function recordSuccess(state, url, now = new Date()) {
   updateHostEligibility(state, host, now);
 }
 
+function seedHostHistoryFromFailureCache(state) {
+  for (const [url, failure] of Object.entries(state.failureCache.records)) {
+    const host = hostKey(url);
+    const checkedAt = dateFrom(failure.lastChecked);
+    if (!host || !checkedAt) continue;
+    const record = state.hostReputation.records[host] ||= { urls: {} };
+    const urlRecord = record.urls[url] ||= {
+      firstSeen: failure.firstFailedAt || failure.lastChecked,
+      failCount: failure.failCount || 0,
+      successCount: 0,
+      strongFailCount: 0,
+      failureDays: [],
+    };
+    urlRecord.lastChecked ||= failure.lastChecked;
+    urlRecord.lastReason ||= failure.reason;
+    if (!urlRecord.failureDays.includes(dayKey(checkedAt))) urlRecord.failureDays.push(dayKey(checkedAt));
+    if ((state.config.longFailure?.strongReasons || []).includes(failure.reason)) {
+      urlRecord.strongFailCount = Math.max(urlRecord.strongFailCount || 0, failure.failCount || 1);
+    }
+  }
+}
+
 function prune(state, now = new Date()) {
   const cacheCutoff = now.getTime() - (state.config.staleRecordDays ?? 90) * 86400000;
   for (const [url, record] of Object.entries(state.failureCache.records)) {
@@ -161,4 +183,4 @@ function saveState(state, now = new Date()) {
   writeJsonAtomic(paths.hostReputation, state.hostReputation);
 }
 
-module.exports = { createState, isUrlInRetryPeriod, isHostTemporarilySkipped, recordFailure, recordSuccess, saveState, normalizeUrl, hostKey };
+module.exports = { createState, isUrlInRetryPeriod, isHostTemporarilySkipped, recordFailure, recordSuccess, seedHostHistoryFromFailureCache, saveState, normalizeUrl, hostKey };
